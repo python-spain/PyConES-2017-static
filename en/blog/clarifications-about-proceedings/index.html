@@ -1,0 +1,208 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PyConES 2015</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="alternate" type="application/rss+xml" title="PyConES 2015 - RSS" href="../feed/index.html">
+    <link rel="alternate" type="application/atom+xml" title="PyConES 2015 - Atom" href="../atom/index.html">
+
+    <!-- Le styles -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- This file store project specific CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="../../../static/css/pycones.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+
+    <!-- Use this to quickly test CSS changes in a template,
+        then move to pycones.css -->
+    
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle collapsed"
+                        data-toggle="collapse"
+                        data-target="#navbar-sections-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-sections-collapse">
+                <ul class="nav navbar-nav navbar">
+                    <li><a href="../../../en.html">PyConES 2015</a></li>
+                    <li><a href="../../info/index.html">About the event</a></li>
+                    <li><a href="../../keynoters-speakers/index.html">Keynoters Speakers</a></li>
+                    
+                    <li><a href="../../schedule/index.html">Schedule</a></li>
+                    
+                    <li><a href="../index.html">Blog</a></li>
+                    <li><a href="../../../static/photos/index.html">Photos</a></li>
+                    
+                        <li><a href="../../attendees/sign-in/index.html">Attendees Area</a></li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+<div class="wrapper-claim">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 claim text-center relative">
+                <div class="center-block claim-picture"></div>
+                <div class="center-block pycones-logo"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2">
+                
+    <article class="row post">
+    <div class="col-xs-12">
+        <h2 class="post-title">
+            <a href="index.html">Clarifications about the proceedings</a>
+        </h2>
+        <p class="post-meta">Aug. 31, 2015, 10:37 a.m.</p>
+        
+        <p class="post-content"><p>Quedan unas horas para que se cierre la llamada a propuestas de la PyConES 2015, muchos de vosotros nos habéis hecho llegar preguntas y dudas acerca de los proceedings que anunciamos en su día, y no todos conocéis el concepto de artículo científico. Vamos a aclarar cómo va a ser el proceso para que quienes estéis considerando mandar un paper podáis tomar una decisión.</p>
+<h2>¿Qué es un paper?</h2>
+<p><small><em>Fuente: https://lists.es.python.org/pipermail/general/2015-July/003103.html</em></small></p>
+<p><em>Si ya sabes lo que es un paper, puedes saltar esta sección.</em></p>
+<p>Las charlas técnicas que todos conocemos no necesitan ningún soporte: de hecho se publican los vídeos y las diapositivas para ayudar a su difusión y que la gente que no ha podido asistir a la conferencia pueda revisar el material en otro momento. Sin embargo, un <strong>artículo científico</strong> o <em>paper</em> es un documento que, por sí mismo, pretende difundir un trabajo de investigación, y está pensado para que se publique. Aquí, por ejemplo, se puede acceder al <a href="http://arxiv.org/pdf/1307.6212v1.pdf">paper que describe el paquete astropy</a>.</p>
+<p>Los artículos suelen tener una estructura bastante estándar: un resumen (<em>abstract</em>), introducción, el cuerpo, unas conclusiones y referencias a más artículos. Cuando se trata de trabajos de investigación de ciencias experimentales, el cuerpo describe con precisión las condiciones del experimento, la metodología utilizada y el análisis de los resultados.</p>
+<p>Tan importante como el contenido es el proceso de revisión y publicación, que se denomina revisión por pares y que es lo que da autoridad al artículo. Es un método que, en teoría, garantiza que el paper tiene un mínimo de calidad y que ha seguido el método científico.</p>
+<p>En computer science también se sigue esta práctica, y los artículos se publican revistas científicas especializadas (<em>journals</em>). Por ejemplo, aquí está el artículo de Alan Turing de 1936 <a href="http://dx.doi.org/10.1112/plms/s2-42.1.230">"On Computable Numbers, with an Application to the Entscheidungsproblem"</a> publicado en los proceedings de la London Mathematical Society.</p>
+<p>El sistema se basa también en una fuerte interrelación: siempre que iniciamos una investigación necesitamos echar mano de conocimiento previo, y esas referencias quedan citadas en nuestro artículo. A su vez, cuando nuestro paper aparece en una publicación importante y recibe muchas citas por parte de otras personas esto se va acumulando en nuestro historial y contribuye positivamente a nuestra carrera científica.</p>
+<h2>¿Cómo se elaborarán los proceedings?</h2>
+<p>Todo el proceso estará basado en el seguido por EuroScipy, que consiste en mandar pull requests a un <a href="https://github.com/python-spain/euroscipy_proceedings">repositorio de GitHub</a> en el que se desarrollará la conversación entre los revisores y el autor del paper:</p>
+<p>Los pasos a seguir, tal y como está explicado en el <code>README</code>, serán:</p>
+<ul>
+<li><em>Forkea</em> el repositorio euroscipy_proceedings.</li>
+<li>Se proporciona un artículo de ejemplo en <code>papers/00_vanderwalt</code>. Crea un nuevo directorio <code>papers/nombre_apellidos</code>, copia el artículo de ejemplo en él y modifícalo.</li>
+<li>Ejecuta <code>./make_paper.sh</code> <code>papers/nombre_apellidos</code> para compilar el paper a PDF. La salida aparece en <code>output/nombre_apellidos/paper.pdf</code>.</li>
+<li>Cuando estés listo para enviar tu artículo, manda un <em>pull request</em> a GitHub. El título del <em>pull request</em> debe incluir el título del paper y el nombre del primer autor.</li>
+</ul>
+<h2>¿El paper tiene que estar listo para la PyConES?</h2>
+<p><strong>No</strong>. Las pull requests se deben enviar antes de la conferencia (la fecha exacta se anunciará próximamente) pero el proceso de revisión se extenderá a lo largo de los meses siguientes. Como ejemplo, la EuroScipy 2014 se celebró en agosto y los proceedings se añadieron a la web en marzo del año siguiente.</p>
+<h2>¿Se aceptan solo artículos sobre bibliotecas científicas?</h2>
+<p>Hemos dado la opción a todo el mundo de decir si estarían dispuestos a mandar un paper o no en el formulario de la llamada a propuestas. Sin embargo, si no llegamos a un número suficiente es posible que no elaboremos los proceedings.</p>
+<hr />
+<p>¿A qué estás esperando? <strong>¡<a href="../../../es/proposals/submit/index.html">Manda ya tu charla a la PyConES 2015</a> ahora que aún estás a tiempo!</strong></p></p>
+    </div>
+</article>
+    <section class="row">
+        <div id="disqus_thread" class="col-xs-12"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'pycones2015';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </section>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-md-offset-2">
+                    <ul class="list-unstyled">
+                        <li><i class="icon-arrow"></i> <a href="../../code-of-conduct/index.html">Code of Conduct</a></li>
+                        <li><i class="icon-arrow"></i> Contact: <a href="mailto:contacto2015@es.pycon.org">contacto2015@es.pycon.org</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <form action="http://2015.es.pycon.org/i18n/setlang/" method="post" class="form-inline"><input type='hidden' name='csrfmiddlewaretoken' value='kUOxLhqLMwIaJSlo6GA5JoeEYQZwamdD' />
+                        <div class="form-group">
+                            <input name="next" type="hidden" value="/" />
+                            <select name="language" class="form-control" onchange="window.location.href=this.value" style="text-transform: capitalize">
+                                
+                                
+                                
+                                
+                                    <option value="/es.html">
+                                        español
+                                    </option>
+                                
+                                    <option value="/ca.html">
+                                        català
+                                    </option>
+                                
+                                    <option value="/gl.html">
+                                        galego
+                                    </option>
+                                
+                                    <option value="/eu.html">
+                                        Basque
+                                    </option>
+                                
+                                    <option value="/en.html" selected="selected">
+                                        English
+                                    </option>
+                                
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center" style="font-size: 32px;">
+                    <a href="https://twitter.com/pycones"><span class="icon-twitter"></span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../../static/vendor/jquery/dist/jquery.min.js"><\/script>')</script>
+
+
+<!-- place project specific Javascript in this file -->
+<script type="text/javascript" src="../../../static/js/vendor.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../../static/js/pycones.js" charset="utf-8"></script>
+
+
+
+</body>
+</html>

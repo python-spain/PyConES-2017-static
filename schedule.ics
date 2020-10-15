@@ -1,0 +1,798 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:Usando contenedores para Big Data
+DTSTART:20151120T150000
+DTEND:20151120T173000
+UID:33
+DESCRIPTION:En la actualidad existe una variedad bastante grande de conten
+ edores de datos para almacenar grandes cantidades de datos en Python\, tan
+ to en memoria como en disco.  En mi taller pasaremos revista a unos cuanto
+ s de los más útiles\, empezando por los más básicos y generales (lista
+ s\, diccionarios\, NumPy/ndarray\, pandas/DataFrames) a los más especiali
+ zados (RDBMS\, PyTables/Table/HDF5\,  bcolz/carray/ctable).  Durante el ca
+ mino se darán pistas de cuando usar unos u otros dependiendo del caso de 
+ uso.
+LOCATION:Aula 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python en gvSIG\, el Sistema de Información Geográfica Libre
+DTSTART:20151120T150000
+DTEND:20151120T173000
+UID:34
+DESCRIPTION:Taller orientado a los que quieran iniciarse en el uso de pyth
+ on para desarrollar funcionalidades en gvSIG\, un Sistema de Información 
+ Geográfica libre.La idea seria dividir el taller en tres bloques:1.-Una i
+ ntroducción\, de nivel básico. Veremos como manipular datos espaciales y
+  generar nuevas capas a partir de algunas ya existentes.2.-Un ejemplo de m
+ anipulación de mapas\, de nivel intermedio. 3.-Un ejemplo de creación  d
+ e interfaces de usuario desde scripting\, de un nivel avanzado.
+LOCATION:Aula 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Single-Page Applications con Django y Backbone
+DTSTART:20151120T150000
+DTEND:20151120T173000
+UID:32
+DESCRIPTION:En este taller llevaremos a cabo un caso práctico. La constru
+ cción de una Single-Page Application usando Backbone como herramienta fro
+ nt-end. Ahora que cada día aparece una docena de frameworks de JavaScript
+ \, suena sensato buscar algo de estabilidad en un framework de trayectoria
+  ya constatada\, como es Backbone. Por otra parte\, tener un framework com
+ o Django en el back-end proporciona robustez\, facilidad de uso y muchísi
+ ma extensibilidad -gracias al increíble ecosistema pythónico-.
+LOCATION:Aula 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART:20151120T173000
+DTEND:20151120T180000
+UID:35
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introducción a visualizaciones interactivas con Bokeh
+DTSTART:20151120T180000
+DTEND:20151120T203000
+UID:36
+DESCRIPTION:Bokeh ( http://bokeh.pydata.org/en/latest/ ) es una librería 
+ de visualización de datos con una interfaz concisa y elegante que permite
+  la construcción de gráficos preparados para la web y con interactividad
+  out-of-the-box y sencilla.Diseña avanzados dashboards en Python para un 
+ navegador web sin escribir ni una línea de código de Javascript (pero si
+  quieres puedes \;P)Interactividad cliente-side\, cliente-servidor\, strea
+ ming\, big data... Simplemente Bokeh! :)
+LOCATION:Aula 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Simplifica tu vida con sistemas complejos y algoritmos genéticos
+DTSTART:20151120T180000
+DTEND:20151120T203000
+UID:37
+DESCRIPTION:¿Qué es un algoritmo genético? ¿Qué es un sistema complej
+ o? ¿Cómo puedo usarlos para resolver problemas complicados? En este tall
+ er abordaremos estos temas y aprenderemos a diseñar y usar algoritmos de 
+ este tipo con Python.
+LOCATION:Aula 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Better async code with Python 3
+DTSTART:20151120T180000
+DTEND:20151120T203000
+UID:38
+DESCRIPTION:Learn async web development hands-on by using asyncio event lo
+ op in combination with subgenerator delegation syntax (yield from)\, creat
+ ing beautiful concurrent code without writing a single callback.
+LOCATION:Aula 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Charla Plenaria
+DTSTART:20151121T090000
+DTEND:20151121T100000
+UID:1
+LOCATION:Paraninfo
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:#!/usr/bin/python (Python para Sysadmins)
+DTSTART:20151121T100000
+DTEND:20151121T104000
+UID:4
+DESCRIPTION:En esta charla se presenta la experiencia de un Sysadmin utili
+ zando Python como lenguaje de scripting avanzado.Se introducirán funciona
+ lidades básicas del lenguajes así como una serie de módulos y trucos qu
+ e facilitarán la vida de cualquier administrador de sistemas que quiera i
+ r más allá de bash.Esta es la charla que me hubiera gustado escuchar cua
+ ndo empecé a escriptar mis primeras tareas para gestionar servidores y se
+ rvicios y que me hubiera ahorrado tiempo y facilitado la vida.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DSLs: Can't parse that!♫
+DTSTART:20151121T100000
+DTEND:20151121T104000
+UID:2
+DESCRIPTION:Se introducirá brevemente qué es un DSL\, tipos y cuándo re
+ sultan interesantes\, mostrando algunos ejemplos. Para pasar a describir u
+ n caso práctico\, creando un DSL real desde cero para procesamiento de te
+ xtos\, viendo como parsearlo\, interpretarlo y resolver un problema de una
+  forma distinta a la que estamos acostumbrados\, dándole una nueva perspe
+ ctiva.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Navigating the Data Science Python Ecosystem
+DTSTART:20151121T100000
+DTEND:20151121T104000
+UID:3
+DESCRIPTION:Do you feel lost with all the libraries being developed in the
+  Python ecosystem for Data Science? Have you heard of scikit-learn\, thean
+ o\, dask\, xray\, blaze\, gensim\, bokeh\, pymc3\, numba\, jupyter...\, bu
+ t don't know where to start or what each library is for? Do you ask yourse
+ lf\, what is Data Science anyway? Deep learning vs Machine learning? Then\
+ , this talk is for you! We'll learn what Data Science is\, as well as\, ex
+ isting libraries\, functionality and applications in the ecosystem.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Click: Como hacer interfaces de comandos con Python
+DTSTART:20151121T104000
+DTEND:20151121T112000
+UID:6
+DESCRIPTION:Click es un paquete de Python que permite la creación rápida
+  y bonita de interfaces de linea de comandos\, utilizando pocas lineas de 
+ código\, de una manera bastante estructurada y componible. Click resuelve
+  las típicas situaciones en las que el programador se ve obligado a hacer
+  un interfaz de comandos y termina por hacerse uno propio.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Escalando una web con python
+DTSTART:20151121T104000
+DTEND:20151121T112000
+UID:7
+DESCRIPTION:Construir una web y soportar su crecimiento en tráfico tiene 
+ su intríngulis. Unaarquitectura sencilla se irá complicando poco a poco 
+ a medida que crece enfuncionalidad y en número de usuarios. Veremos un pr
+ oyecto simplón\, como podríaempezar cualquier web que hiciésemos nosotr
+ os mismos y la iremos evolucionando yampliando\, descubriendo y solucionan
+ do los problemas típicos que surgen a lahora de hacer escalar una web.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Autosubmit: investigando el clima con Python
+DTSTART:20151121T104000
+DTEND:20151121T112000
+UID:5
+DESCRIPTION:¿Cómo investigar aquello con lo que no puedes experimentar? 
+ Utilizando modelos. El problema es que simular algo tan complejo como el c
+ lima requiere programas que utilizan cientos de procesadores y generan ter
+ as de resultados. En esta charla te contaremos como [Autosubmit](https://p
+ ypi.python.org/pypi/autosubmit) es capaz de manejar estos gigantescos expe
+ rimentos para que los climatólogos puedan dedicarse a la ciencia sin prob
+ lemas
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffee Break
+DTSTART:20151121T112000
+DTEND:20151121T115000
+UID:8
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:let's Twisted again!
+DTSTART:20151121T115000
+DTEND:20151121T123000
+UID:11
+DESCRIPTION:Haz que tus programas sean reactivos a determinados eventos de
+  red. Para ello podemos contar con el framework conocido como Twisted\, du
+ rante la charla aprenderás lo básico para usarla.Twisted es un motor ori
+ entado a eventos de redes y tiene licencia de código libre (MIT).
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Syntactic Macros in Python
+DTSTART:20151121T115000
+DTEND:20151121T123000
+UID:10
+DESCRIPTION:Syntactic Macros enable the programmer to manipulate the shape
+  of the program before executing it allowing to extend the features of the
+  language. Inspired by macropy\, in this talk I explain how to get syntact
+ ic macros working with Python 3 at import time giving a couple of interest
+ ing examples.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SocialLearning: encontrando materiales formativos de manera colabo
+ rativa
+DTSTART:20151121T115000
+DTEND:20151121T123000
+UID:9
+DESCRIPTION:Social learning es una plataforma de gestión documental orien
+ tada al descubrimiento y clasificación de recursos formativos (videos\, d
+ ocumentos\, páginas web\, etc) a partir de búsquedas en redes sociales d
+ e forma masiva y automatizada.Es un proyecto libre (https://github.com/ala
+ barga/SocialLearning) desarrollado en Python y utiliza librerías como Dja
+ ngo\, REST framework\, NTLTK\, Celery/Redis\, etc.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:La maquinaria de import\, ese mágico desconocido
+DTSTART:20151121T123000
+DTEND:20151121T131000
+UID:14
+DESCRIPTION:importar módulos y librerías en python es una de las cosas m
+ ás mágicas que existen. Básicamente funciona pero no sabemos como ni po
+ rque. En la charla se explicará como funciona y porque puede ser útil sa
+ ber como funciona.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:"Embedding" de Python en otras aplicaciones
+DTSTART:20151121T123000
+DTEND:20151121T131000
+UID:13
+DESCRIPTION:Es común ampliar las funcionalidades de Python mediante exten
+ siones y módulos externos. Tecnologías como Cython y todo el entorno num
+ py son posibles mediante la integración de código C compilado en un prog
+ rama Python en ejecución. Pero es muy interesante\, también\, el poder i
+ ncluir un intérprete Python en un programa independiente para poder ampli
+ ar sus funcionalidades escribiendo código Python en vez programando en C.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introducción a visualizaciones interactivas con Bokeh
+DTSTART:20151121T123000
+DTEND:20151121T131000
+UID:12
+DESCRIPTION:Bokeh ( http://bokeh.pydata.org/en/latest/ ) es una librería 
+ de visualización de datos con una interfaz concisa y elegante que permite
+  la construcción de gráficos preparados para la web y con interactividad
+  out-of-the-box y sencilla.Diseña avanzados dashboards en Python para un 
+ navegador web sin escribir ni una línea de código de Javascript (pero si
+  quieres puedes \;P)Interactividad cliente-side\, cliente-servidor\, strea
+ ming\, big data... Simplemente Bokeh! :)
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python Funcional
+DTSTART:20151121T131000
+DTEND:20151121T135000
+UID:17
+DESCRIPTION:Implementacion de varios de los elementos que componen la prog
+ ramacion funcional mediante Python.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python tips\, tricks and dark magic
+DTSTART:20151121T131000
+DTEND:20151121T135000
+UID:15
+DESCRIPTION:Python tiene una gran cantidad de funcionalidades ocultas\, pe
+ ro a la vez a la vista de todos. Esta charla descubrir algunas de ellas ex
+ plicando como funcionan\, cuando tiene sentido usarlas y dando casos prác
+ ticos de como usarlas con ejemplos de código que las usan.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python en la industria: el problema de optimización (matemática)
+  
+DTSTART:20151121T131000
+DTEND:20151121T135000
+UID:16
+DESCRIPTION:La optimización matemática es utilizada en la industria para
+  la resolución de diferentes problemas\, que van desde la selección ópt
+ ima de equipos y recursos a la gestión logística de una empresa. En esta
+  charla\, estudiantes de ingeniería química de la Universidad de Alicant
+ e realizarán una introducción visual a conceptos de optimización\, pres
+ entarán Pyomo y mostrarán la resolución de casos de estudio de diferent
+ es industrias mediante este lenguaje de modelado algebraico desarrollado e
+ n Python.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Comida
+DTSTART:20151121T135000
+DTEND:20151121T150000
+UID:18
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Objetos mutable e inmutables y errores típicos
+DTSTART:20151121T150000
+DTEND:20151121T154000
+UID:20
+DESCRIPTION:En esta charla veremos varios errores típicos hechos al usar 
+ objetos mutables de Python\, revisaremos 5 conceptos clave para entender l
+ o que estaba sucediendo en cada caso y\, finalmente\, la forma de resolver
+  o evitar esos errores.Nivel requerido: Básico / Intermedio. Los asistent
+ es deben saber algunos conceptos de Python como declaración de clases y f
+ unciones\, la herencia\, atributos de clase...
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SQJobs: Sencillo sistema de tareas en segundo plano
+DTSTART:20151121T150000
+DTEND:20151121T154000
+UID:21
+DESCRIPTION:Muchos son los sistemas de tareas en segundo plano en Python\,
+  como por ejemplo Celery.Sí\, en Ticketea hemos creado uno más\, pero in
+ tentando hacerlo diferente.Simple Queue Jobs intenta ser una cola de tarea
+ s sencilla y fiable que simplemente funcione y cuyo código no intimide a 
+ aquellos que busquen familiarizarse con él.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Know your models - Statsmodels!
+DTSTART:20151121T150000
+DTEND:20151121T154000
+UID:22
+DESCRIPTION:Scikit-learn has become the best known and most used package t
+ o perform it-just-works Machine Learning in Python. But what happens when 
+ you want to look into what is going on within your models to inspect and i
+ mprove them? In this talk we will present the not-so-well-known packages s
+ tatsmodels and patsy that can help us to achieve a better undestanding of 
+ your models and your data.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Revisión de código en Python
+DTSTART:20151121T154000
+DTEND:20151121T162000
+UID:23
+DESCRIPTION:El objetivo de esta charla es dar a conocer los beneficios de 
+ la revisión de código\, detallando los aspectos prácticos para llevar a
+  cabo esta técnica de manera exitosa en proyectos colaborativos de desarr
+ ollo de software escritos en Python.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Learning by Trolling
+DTSTART:20151121T154000
+DTEND:20151121T162000
+UID:24
+DESCRIPTION:Explicación de diferentes conceptos y caracteristicas de pyth
+ on a traves de formas de trollear a compañeros. (monkeypatching\, cache d
+ e enteros\, excepciones...)
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data structures beyond dicts and lists
+DTSTART:20151121T154000
+DTEND:20151121T162000
+UID:19
+DESCRIPTION:As a python backend engineer you might end up using (or abusin
+ g) lot's of dicts and lists\, iterating on them. This is mainly due their 
+ easy usage and might be also  because libraries like pandas or numpy fall 
+ down in the domain of data science.We will see a real example where an old
+  implementation is refactored to have better use of pandas and constantly 
+ comparing the performance increase.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffe Break
+DTSTART:20151121T162000
+DTEND:20151121T165000
+UID:25
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python descriptors al detalle
+DTSTART:20151121T165000
+DTEND:20151121T173000
+UID:26
+DESCRIPTION:En esta charla repasaremos el protocolo de los descriptores\, 
+ casos de uso y sus aplicaciones más directas en la librería estándar\, 
+ como son properties y slots.La audiencia debería tener un conocimiento me
+ dio / alto de Python y entender el data model de los objetos de Python (lo
+ s magic methods).
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Django request-response: Un viaje de ida y vuelta
+DTSTART:20151121T165000
+DTEND:20151121T173000
+UID:27
+DESCRIPTION:Todos sabemos que cuando tenemos una aplicación hecha en Djan
+ go ejecutándose en un servidor\, y le llega una petición\, tarde o tempr
+ ano nuestro código se ejecutará y le devolveremos una respuesta al usuar
+ io\, pero... ¿Qué ocurre antes y después de la ejecución de nuestro c
+ ódigo?\, ¿qué tareas hace Django por nosotros sin ni siquiera ser consc
+ ientes de ello?\, ¿es posible modificar este comportamiento?\, y lo más 
+ importante:  ¿cómo?
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seguridad y criptografía en Python
+DTSTART:20151121T165000
+DTEND:20151121T173000
+UID:28
+DESCRIPTION:La charla tendrá como objetivo introducir la criptografía y 
+ la seguridad desde el punto de vista del desarrollador\, mostrando maneras
+  de cifrar la información con scripts de Python y la información más se
+ nsible en aplicaciones web usando Django\,comentando la principales vulner
+ abilidades que podemos encontrar en un sitio web(SQL injection\,XSS\, CSRF
+ ) y cómo Django nos puede ayudar a evitar ataques que se aprovechen de es
+ tas vulnerabilidades.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Extending Python
+DTSTART:20151121T173000
+DTEND:20151121T181000
+UID:31
+DESCRIPTION:Python is a great language\, but there are occasions where we 
+ need access to lowlevel operations or connect with some database driver wr
+ itten in C or we need toovercome to some speed boottleneck in Python due t
+ o some limitation in thelanguage\, like NumPy or Scikit-learn do\, using e
+ xtensions.With the FFI(Foreign function interface) we can connect Python w
+ ith otherlanguages like C\, C++ and even Rust or Fortran.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Integrando Apache Storm como servidor de aplicaciones Python
+DTSTART:20151121T173000
+DTEND:20151121T181000
+UID:30
+DESCRIPTION:Apache Storm es un sistema de procesamiento en tiempo real dis
+ eñado para escalar horizontalmente de forma simple y rápida con garantí
+ a de procesamiento. Está basado en Java\, no obstante\, permite utilizar 
+ multiples lenguajes de programación\, incluido Python\, de forma que no n
+ ecesites usar Java para nada. En esta charla explicaré el caso de uso de 
+ Server Density para el procesamiento de "payloads" para la monitorización
+  de servidores.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PhaseSpace un programa para analizar sistemas dinámicos
+DTSTART:20151121T173000
+DTEND:20151121T181000
+UID:29
+DESCRIPTION:PhaseSpace es un programa diseñado para analizar sistemas din
+ ámicos de un modo sencillo. Para ello dibuja el mapa de fases de dicho si
+ stema y además permite dibujar los puntos críticos y las curvas de pendi
+ ente 0 e infinito\, tanto explícitas como implícitas\, así como el camp
+ o vectorial y las soluciones del sistema que queremos estudiar. También p
+ ermite seleccionar el método numérico para realizar los cálculos y camb
+ iar los ejes y el paso de integración.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning Talks
+DTSTART:20151121T181000
+DTEND:20151121T191000
+UID:67
+LOCATION:Aula 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Implantación de ElasticSearch: problemas y soluciones
+DTSTART:20151122T092000
+DTEND:20151122T100000
+UID:41
+DESCRIPTION:En esta charla se presentará de manera resumida un caso real:
+  el proceso de implantación de ElasticSearch en una aplicación de Django
+ . Partiendo de la motivación de implementar un buscador\, veremos los pro
+ blemas encontrados por nuestro equipo (¡y sus soluciones!). A saber: inst
+ alación\, definición de los documentos\, modo de conexión\, indexado\, 
+ particionado y sincronía con nuestra base de datos.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sirviendo 1M de tickets en 50 idiomas y 35 divisas
+DTSTART:20151122T092000
+DTEND:20151122T100000
+UID:39
+DESCRIPTION:El crecimiento exponencial de Ticketbis nos exige una arquitec
+ tura que pueda escalar horizontalmente. Teniendo en cuenta que servimos ca
+ si 1M de tickets en 50 idiomas y 35 divisas diferentes\, la desnormalizaci
+ ón de los datos y su correspondiente cacheo eran necesarios. ¿Queréis s
+ aber cómo lo hacemos sin un solo hit a la base de datos? Os doy una pista
+ : demonios pythónicos + Redis + Elasticsearch.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Es posible hacer una tesis doctoral en turbulencia con Python
+DTSTART:20151122T092000
+DTEND:20151122T100000
+UID:40
+DESCRIPTION:La simulación numérica directa de flujos turbulentos es una 
+ disciplina particularmente exigente en lo que respecta a manejo de datos a
+  gran escala. Las simulaciones que llevamos a cabo en el grupo de investig
+ ación guardan del orden de centenares de terabytes de datos\, y su proces
+ o suele generar entre dos y tres veces esta cantidad. Después del primer 
+ año de tesis doctoral decidí ponerme de conejillo de indias para comprob
+ ar si Python es en la práctica tan bueno como se dice en teoría.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Como crear un bot para Telegram
+DTSTART:20151122T100000
+DTEND:20151122T104000
+UID:43
+DESCRIPTION:En esta charla veremos como es posible crear un bot para Teleg
+ ram utilizando la libreria pyTelegramBotAPI y Telegram Bot API. Se mostrar
+ an los pasos a seguir para crear un bot sencillo que pueda aceptar interac
+ ción del usuario
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:asyncIO: póngase a la cola por favor
+DTSTART:20151122T100000
+DTEND:20151122T104000
+UID:44
+DESCRIPTION:En esta charla veremos como usar python3 con asyncio\, websock
+ ets y redis paraconstruir un servicio distribuido de colas virtuales con l
+ os que controlar deforma ordenada el acceso a un servicio con elevada carg
+ a pico.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thumbor\, el servidor de imágenes libre e inteligente
+DTSTART:20151122T100000
+DTEND:20151122T104000
+UID:42
+DESCRIPTION:Thumbor es un servidor de imágenes escrito en python. Es capa
+ z de procesar imágenes bajo demanda e incluye funcionalidad de procesado 
+ (con opencv) para adaptar las redimensiones de manera inteligente. En esta
+  charla introduciré su utilización y entresijos con el despliegue. 
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Plone 5: el CMS del futuro\, en el presente.
+DTSTART:20151122T104000
+DTEND:20151122T112000
+UID:47
+DESCRIPTION:Plone es un gestor de documental y contenidos con más de 10 a
+ ños de recorrido. Creado inicialmente como una "cara bonita" del Content 
+ Management Framework ha evolucionado hasta nuestros días para traer una e
+ xperiencia de uso y funcionalidades del más alto nivel.Con las últimas m
+ odificaciones realizadas durante el desarrollo\, está a punto de publicar
+ se la versión 5 de este CMS\, íntegramente escrito en Python\, y que pre
+ sentaremos en esta charla.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Un python nuevo para ti: decorators
+DTSTART:20151122T104000
+DTEND:20151122T112000
+UID:45
+DESCRIPTION:Python es un lenguaje de programación con muchas funcionalida
+ des interesantes. Sin embargo\, existen ciertas features habituales en otr
+ os lenguajes de programación que no tienen cabida en este: sobrecarga de 
+ métodos\, un operador para la composición de funciones\, comprobación d
+ e tipos...En esta charla veremos cómo podemos conseguir estas funcionalid
+ ades utilizando decorators e inspeccionando los objectos que representan a
+  las funciones.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Machine Learning in the Cloud with Python
+DTSTART:20151122T104000
+DTEND:20151122T112000
+UID:46
+DESCRIPTION:La charla mostará cómo introducir el aprendizaje automático
+  en cualquier proyecto usando plataformas de SAAS accesibles via API. En p
+ articular\, nos centraremos en el caso de los servicios disponibles en Big
+ ML. Veremos como acceder a ellos a distintos niveles: usando los bindings 
+ para Python y también mediante un DSL en línea de comandos.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffe Break
+DTSTART:20151122T112000
+DTEND:20151122T115000
+UID:48
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Funcional para trollear
+DTSTART:20151122T115000
+DTEND:20151122T123000
+UID:49
+DESCRIPTION:Usar lo que nos ofrece python para volver scripts imperativos 
+ en funcionales* y trollear a los colegas*Ciertas restricciones aplican
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:El módulo "tracemalloc"
+DTSTART:20151122T115000
+DTEND:20151122T123000
+UID:50
+DESCRIPTION:El módulo "tracemalloc"\, añadido a la librería estándar e
+ n Python 3.4\, permite monitorizar el uso de memoria y nos ayuda a diagnos
+ ticar y solucionar "Memory Leaks". Su utilidad es indudable\, pero su uso 
+ está poco difundido.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trolling Detection with Scikit-learn and NLTK
+DTSTART:20151122T115000
+DTEND:20151122T123000
+UID:51
+DESCRIPTION:La inmensa mayoría del contenido que se crea diariamente en I
+ nternet es desestructurado. Aproximadamente el 90% del mismo es texto. En 
+ la era de la web colaborativa\, usamos el lenguaje constantemente\, por ej
+ emplo\, para escribir una crítica de un producto\, comentar una foto o es
+ cribir un tweet. Esta información es tremendamente valiosa en muchos sent
+ idos. En esta charla veremos algunas de las herramientas que ofrece el eco
+ sistema Python para comprender\, estructurar y extraer valor de un texto.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Having it All: Distributed services with Django\, Boto\, and SQS q
+ ueues
+DTSTART:20151122T123000
+DTEND:20151122T131000
+UID:54
+DESCRIPTION:How do you let untrained people in your company run sensitive 
+ processes on different remote servers? Processes that must run asynchronou
+ sly and sequentially while accessing different common resources? And how d
+ o you do it quickly and make it robust? I will show how we used Django\, S
+ QS and Boto to create a distributed and decoupled solution that let users 
+ invoke services asynchronously\, which is secure\, scalable and ensures th
+ at processes using common resources ran in sequence.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Comparing Python ORM
+DTSTART:20151122T123000
+DTEND:20151122T131000
+UID:52
+DESCRIPTION:El objetivo de la charla es mostrar algunos de los sistemas OR
+ M que podemos encontrar dentro del ecosistema de Python como Sqlalchemy\, 
+ Storm\, Sqlobject\, Django ORM\,realizando una comparativa entre ellos\,mo
+ strando ventajas y desventajas de cada uno.Algunas de las características
+  a comparar son performance\, eficiencia\, tratamiento de caché\, consult
+ as.Por ultimo\, se comentarán las ventajas que aportan estos sistemas par
+ a la seguridad de la aplicaciones web con Django.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tratando datos más allá de los límites de la memoria
+DTSTART:20151122T123000
+DTEND:20151122T131000
+UID:53
+DESCRIPTION:En la era del 'Big Data' se necesitan cantidades cada vez más
+  grandes de memoria (RAM) para tratar y analizar estos datos.  Pero tarde 
+ o temprano se llega a unos límites por encima de los cuales no se puede (
+ o es muy caro) pasar.El compresor Blosc (blosc.org) y el contenedor de dat
+ os bcolz (bcolz.blosc.org)\, usan las capacidades de los ordenadores moder
+ nos (caches\, procesadores multihilo y SSDs) para permitir tratar datos m
+ ás allá los límites de la memoria.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Introducción a los DSL (Domain Specific Languages) en Python
+DTSTART:20151122T131000
+DTEND:20151122T135000
+UID:55
+DESCRIPTION:Los lenguajes específicos de dominio son lenguajes especializ
+ ados\, simplificados y limitados a la resolución de problemas de un domin
+ io concreto. Usados correctamente mejoran la productividad de los desarrol
+ ladores\, así como la comunicación con los usuarios o expertos de otros 
+ dominios\, entre otras ventajas. En esta charla introductoria veremos qué
+  son\, para qué sirven\, en qué casos usarlos y algunas librerías de Py
+ thon que nos facilitarán crear nuestros propios lenguajes específicos de
+  dominio.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Metaprogramación en Python
+DTSTART:20151122T131000
+DTEND:20151122T135000
+UID:56
+DESCRIPTION:Según wikipedia: “La metaprogramación consiste en escribir
+  programas que escriben o manipulan otros programas (o a sí mismos) como 
+ datos\, o que hacen en tiempo de compilación parte del trabajo que\, de o
+ tra forma\, se haría en tiempo de ejecución. Esto permite al programador
+  ahorrar tiempo en la producción de código.” En esta charla veremos di
+ ferentes mecanismos que Python proporciona como: - Decoradores - Metaclass
+ es.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dive into Scrapy
+DTSTART:20151122T131000
+DTEND:20151122T135000
+UID:57
+DESCRIPTION:Scrapy is a fast high-level screen scraping and web crawling f
+ ramework\, used to crawl websites and extract structured data from their p
+ ages. It can be used for a wide range of purposes\, from data mining to mo
+ nitoring and automated testing.In this talk some advanced techniques will 
+ be shown based on how Scrapy is used at Scrapinghub.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Comida
+DTSTART:20151122T135000
+DTEND:20151122T150000
+UID:58
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Life of a Python program
+DTSTART:20151122T150000
+DTEND:20151122T154000
+UID:59
+DESCRIPTION:Sometimes is good to know what's happening under the hood\, th
+ is talk will explain how CPython works internally since we type `python my
+ program.py` until our code is finally executedexplaining the process that 
+ CPython does to run our programs.The goal of this talk is explain people h
+ ow to explore the codeof the interpreter itself using some common tools an
+ d let regularPython developers that aren't used to work with C lose the fe
+ arabout looking under the hood.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hacking the Taiga
+DTSTART:20151122T150000
+DTEND:20151122T154000
+UID:60
+DESCRIPTION:Taiga es una herramienta de gestión ágil de proyectos donde 
+ prima ante todo la experiencia de usuario. En esta charla trataré de most
+ rar cómo puedes desarrollar nuevas funcionalidades para ti\, tu organizac
+ ión o comunidad\, sin necesidad de modificar el core de Taiga.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fiona y Shapely\, la punta del iceberg del análisis de datos geog
+ ráficos con Python
+DTSTART:20151122T150000
+DTEND:20151122T154000
+UID:61
+DESCRIPTION:Fiona y Shapely son la puerta de entrada al análisis de datos
+  geográficos con Python. En la charla haremos una introducción básica a
+  su uso y realizaremos un pequeño mapa de dmostación.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python in the Sky
+DTSTART:20151122T154000
+DTEND:20151122T162000
+UID:62
+DESCRIPTION:Case study of Immfly’s Wireless In-Flight Entertainment syst
+ em\, built using Python.
+LOCATION:1G-0.4 (Básico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amqp from Python\, advanced design patterns
+DTSTART:20151122T154000
+DTEND:20151122T162000
+UID:63
+DESCRIPTION:AMQP as standard application layer protocol is widely used to 
+ design backends where business logic is spread around different processes 
+ using a broker to link them\, usually RabbitMQ. AMQP  allows us to use dif
+ ferent design patterns than the traditional monolithic backends\, where pa
+ rt of your business logic is designed as entities of the AMQP topology. In
+  this talk we will talk about the Python drivers such as Celery\, Pika and
+  others\, and how they can be used to get the full power of the AMQP.
+LOCATION:1G-0.5 (Avanzado)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Agujeros negros y optimización de código en python
+DTSTART:20151122T154000
+DTEND:20151122T162000
+UID:64
+DESCRIPTION:En esta charla atenderemos a la construcción de un raytracer 
+ relativista en Python. Nuestro objetivo será conseguir imágenes similare
+ s a las observadas en la película Interestellar\, mediante la creación d
+ e imágenes sintéticas en un entorno de gravedad extrema\, como es un agu
+ jero negro. Utilizando esto como excusa\, analizaremos distintos enfoques 
+ para optimizar nuestro código al máximo y conseguir programas eficientes
+  y profesionales a la altura de cualquier otro lenguaje de programación.
+LOCATION:1G-0.6 (Científico)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coffe Break
+DTSTART:20151122T162000
+DTEND:20151122T165000
+UID:65
+LOCATION:Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Charla Plenaria
+DTSTART:20151122T165000
+DTEND:20151122T175000
+UID:66
+LOCATION:Paraninfo
+END:VEVENT
+END:VCALENDAR
